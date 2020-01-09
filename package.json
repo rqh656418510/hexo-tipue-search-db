@@ -1,0 +1,27 @@
+{
+  "author": {
+    "name": "rqh656418510"
+  },
+  "dependencies": {
+    "hexo-util": "latest"
+  },
+  "deprecated": false,
+  "description": "hexo plugin that generates db file for tipue search",
+  "homepage": "https://github.com/rqh656418510/hexo-tipue-search-db.git",
+  "keywords": [
+    "hexo",
+    "tipue",
+    "search"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "hexo-tipue-search-db",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rqh656418510/hexo-tipue-search-db.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.2"
+}
