@@ -48,6 +48,10 @@ function hexo_generator_tipue_search_db(site) {
         var actualPage = {};
 
         if(hexo.config.tipue_search_db && hexo.config.tipue_search_db.exclude_page) {
+            actualPage.url = "";
+            actualPage.text = "";
+            actualPage.tags = "";
+            actualPage.title = "";
             return actualPage;
         }
 
