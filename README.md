@@ -41,6 +41,15 @@ $ npm install hexo-tipue-search-db --save
 </script>
 ```
 
+## Plugin config
+
+Default posts and pages are included in generated db file, you can exclude pages by `exclude_page: true`.
+
+``` yml
+tipue_search_db:
+  exclude_page: true    # default false
+```
+
 ## DB file
 
 The db file path is: `${blog_root}/tipuesearch/tipuesearch_content.js`

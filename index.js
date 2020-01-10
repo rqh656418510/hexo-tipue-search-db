@@ -47,6 +47,10 @@ function hexo_generator_tipue_search_db(site) {
     pagesContent = site.pages.sort('-date').map(function (page) {
         var actualPage = {};
 
+        if(hexo.config.tipue_search_db && hexo.config.tipue_search_db.exclude_page) {
+            return actualPage;
+        }
+
         Object.getOwnPropertyNames(keys).forEach(function (item) {
             switch (item) {
                 case 'text':
