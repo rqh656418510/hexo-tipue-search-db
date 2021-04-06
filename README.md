@@ -52,7 +52,7 @@ tipue_search_db:
 
 ## DB file
 
-The db file path is: `${blog_root}/tipuesearch/tipuesearch_content.js`, you can use custom file path by params `path`
+The default db file path is: `${blog_root}/tipuesearch/tipuesearch_content.js`, you can use custom file path by params `path`
 
 ``` yml
 tipue_search_db:
