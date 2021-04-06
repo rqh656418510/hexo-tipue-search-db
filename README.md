@@ -48,6 +48,7 @@ Default posts and pages are included in generated db file, you can exclude pages
 ``` yml
 tipue_search_db:
   exclude_page: true    # default false
+  path: '/tipuesearch/tipuesearch_content.js'     # default file path
 ```
 
 ## DB file

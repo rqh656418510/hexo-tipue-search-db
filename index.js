@@ -1,5 +1,15 @@
 var util = require('hexo-util');
 
+var config = hexo.config;
+
+// default file path
+var path =  "/tipuesearch/tipuesearch_content.js";
+
+// custom file path
+if(config.tipue_search_db && config.tipue_search_db.path){
+  path = config.tipue_search_db.path;
+}
+
 hexo.extend.generator.register('generator-tipue-search-db', hexo_generator_tipue_search_db);
 
 function hexo_generator_tipue_search_db(site) {
@@ -75,7 +85,7 @@ function hexo_generator_tipue_search_db(site) {
     dbContent = "var tipuesearch = " + JSON.stringify(json);
 
     return {
-        path: '/tipuesearch/tipuesearch_content.js',
+        path: path,
         data: dbContent
     };
 }
