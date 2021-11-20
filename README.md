@@ -91,11 +91,11 @@ tipue_search_db:
 
 ## DB file
 
-The default db file path is: `${blog_root}/tipuesearch/tipuesearch_content.js`, you can use custom file path by params `path`
+The default db file path is: `${blog_root}/public/tipuesearch/tipuesearch_content.js`, you can use custom file path by params `path`
 
 ``` yml
 tipue_search_db:
-  path: '/tipuesearch/tipuesearch_content.js'     # file path
+  path: '/tipuesearch/tipuesearch_content.js'     # Custom db file path, base on directory '${blog_root}/public'
 ```
 
 ## Demo
